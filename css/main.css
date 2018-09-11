@@ -61,6 +61,10 @@ h1,h2,h3,h4,h5 {
   font-family: 'Raleway', sans-serif;
 }
 
+h4 {
+	color: #ac4db3;
+}
+
 p, a {
   font-family: 'Open Sans', sans-serif;
 }
@@ -143,7 +147,7 @@ header h1 {
   text-transform: uppercase;
   font-size: 3rem;
   font-weight: bold;
-  color: white;
+  color: #ac4db3;
 }
 
 header p {
@@ -168,8 +172,20 @@ header p {
   background-color: #512653;
   font-size: 1.5rem;
   font-weight: bold;
-  color: white;
-  margin: 0;
+  color: #ac4db3;
+  margin-top: 60px;
+	margin-bottom: 10px;
+	padding-right: 20px;
+}
+
+#latestText p
+{
+	color: white;
+	font-size: 16px;
+	margin-bottom: 60px;
+	padding-right: 20px;
+	font-family: Raleway;
+	margin-top: 10px;
 }
 
 .latestImage {
@@ -179,11 +195,13 @@ header p {
 .post {
   background-color: #c2b2c9;
   border: 1px solid red;
-  height: 200px;
+  height: 500px;
   width: 150px;
   padding-left: 3em;
   padding-top: 2em;
 }
+
+
 /***************************/
 
 /**********Footer***********/
