@@ -7,16 +7,120 @@
     <title>Pure Volume</title>
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet"> <!--CSS FILE YOU CAN EDIT-->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway" rel="stylesheet">
   </head>
 
   <body>
-    <h1>Hello, world!</h1>
+
+    <div class="topBar"></div> <!--MAIN NAVIGATION-->
+    <div class="topNav">
+      <nav class="container-fluid">
+        <h2 class="hidden">Main Navigation</h2>
+        <img src="images/logo1.svg" width="125" height="125" alt="purevolume logo">
+        <ol class="text-center">
+          <li><p>01</p><a href="#">Pop Culture</a></li>
+          <li><p>02</p><a href="#">Entertainment</a></li>
+          <li><p>03</p><a href="#">Music</a></li>
+        </ol>
+      </nav>
+    </div> <!--MAIN NAVIGATION END-->
+
+  <header class="container-fluid"> <!--VIDEO SECTION-->
+    <video id="headerVid" poster="" width="1024" height="400" alt="promotional video">
+      <source src="assets/test.mp4" type="video/mp4"/>
+        Your browser does not support the video files! Please try another browser.
+    </video>
+    <div id="controls">
+      <button id="playPause">Play</button>
+      <input type="range" id="seek-bar" class="slider" value="0">
+      <button id="rewind" class="control">Rewind</button>
+      <button id="muteVideo" class="control">Mute</button>
+      <button id="full-screen" class="control">Full Screen</button>
+    </div>
+    <h1>Pure Volume</h1>
+    <p>Bringing you the latest pop culture, entertainment and music news. It's all for the love of music.</p>
+  </header> <!--VIDEO SECTION END-->
+
+    <section id="latestSection"> <!--THE LATEST SECTION-->
+      <h3>01 | The Latest </h3>
+      <div id="latestBg" class="row">
+          <div id="latestImage" class="col-md-6">
+            <img src="images/img01.jpg">
+          </div>
+          <div id="latestText" class="col-md-5">
+            <h4>Drake's Charmed Life: The Tough Times And Successes of Aubrey Graham</h4>
+            <p>Text Here</p>
+          </div>
+          <div class="category col-md-1">
+            <h5><a href="#">Entertainment</a></h5>
+          </div>
+      </div>
+    </section> <!--THE LATEST SECTION END-->
+
+    <section class="container-fluid"> <!--POSTS STARTS HERE-->
+      <ul class="row">
+
+        <li class="post col-12 col-md-6"> <!--POST 1-->
+          <h3>01</h4>
+          <img src="images/image01.jpg">
+          <h4>Subtitle</h4>
+          <div class="category">
+            <h5>Category</h5>
+          </div>
+        </li>
+
+        <li class="post col-12 col-md-6"> <!--POST 2-->
+          <h3>02</h4>
+          <img src="images/image02.jpg">
+          <h4>Subtitle</h4>
+          <div class="category">
+            <h5>Category</h5>
+          </div>
+        </li>
+
+        <li class="post col-12 col-md-6"> <!--POST 3-->
+          <h3>03</h4>
+          <img src="images/image03.jpg">
+          <h4>Subtitle</h4>
+          <div class="category">
+            <h5>Category</h5>
+          </div>
+        </li>
+
+        <li class="post col-12 col-md-6"> <!--POST 4-->
+          <h3>04</h4>
+          <img src="images/image04.jpg">
+          <h4>Subtitle</h4>
+          <div class="category">
+            <h5>Category</h5>
+          </div>
+        </li>
+
+    </ul>
+      <button>View More</button>
+    </section> <!--POST ENDS HERE-->
+
+<footer class="container-fluid"> <!--FOOTER STARTS HERE-->
+  <h2 class="hidden">Footer</h2>
+  <img src="images/logo1.svg" width="125" height="125" class="mx-auto d-block">
+  <nav class="col-center">
+    <h2 class="hidden">Footer Navigation</h2>
+    <ol class="text-center">
+      <li><p>01</p><a href="#">About</a></li>
+      <li><p>02</p><a href="#">Contact</a></li>
+      <li><p>03</p><a href="#">Copyright</a></li>
+      <li><p>04</p><a href="#">Privacy</a></li>
+      <li><p>05</p><a href="#">Terms</a></li>
+      <li><p>06</p><a href="#">Impressum</a></li>
+    </ol>
+  </nav>
+</footer> <!--FOOTER ENDS HERE-->
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/main.js"></script>
+    <script src="js/main.js"></script> <!--JS FILE YOU CAN EDIT-->
   </body>
 </html>

@@ -1,0 +1,209 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+   CSS RESET!!!
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/**********Global***********/
+ol {
+  list-style-type: decimal;
+}
+
+.hidden {
+  display: none;
+}
+
+h1,h2,h3,h4,h5 {
+  font-family: 'Raleway', sans-serif;
+}
+
+p, a {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.category {
+	transform: rotate(90deg);
+	transform-origin: left top 0;
+  color: grey;
+  font-size: 1.2em;
+  font-weight: bold;
+  float: right;
+}
+
+a {
+  color: #3d1144;
+  font-weight: bold;
+  padding-left: 10px;
+  display: inline-block;
+}
+
+/***************************/
+
+/**********Top Navigation***********/
+.topBar {
+  width: 100%;
+  height: 20px;
+  background-color: #512653;
+}
+
+.topNav nav ol li{
+  display: inline-block;
+  margin-bottom: 1.5rem;
+}
+
+.topNav nav {
+  display: block;
+}
+
+.topNav nav img {
+  display: block;
+  margin: 0 auto;
+}
+
+@media (min-width: 992px) {
+.topNav nav {
+   display: flex;
+ }
+
+.topNav nav img {
+   margin: 0;
+ }
+
+.topNav nav ol {
+   margin-top: 3rem;
+ }
+
+.topNav nav ol li {
+   display: inline-block;
+ }
+
+.topNav nav ol li p {
+   display: block;
+ }
+
+ }
+/***************************/
+
+
+/**********Header***********/
+header {
+  background-color: black;
+  padding: 1rem;
+}
+
+.headerVid {
+  margin: 0 auto;
+}
+
+header h1 {
+  text-transform: uppercase;
+  font-size: 3rem;
+  font-weight: bold;
+  color: white;
+}
+
+header p {
+  color: white;
+}
+/***************************/
+
+/**********Homepage*********/
+#latestSection h3 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: black;
+  margin: 1rem;
+}
+
+#latestBg {
+  background-color: #512653;
+  padding: 1.5rem;
+}
+
+#latestBg h4 {
+  background-color: #512653;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  margin: 0;
+}
+
+.latestImage {
+  float: left;
+}
+
+.post {
+  background-color: #c2b2c9;
+  border: 1px solid red;
+  height: 200px;
+  width: 150px;
+  padding-left: 3em;
+  padding-top: 2em;
+}
+/***************************/
+
+/**********Footer***********/
+footer {
+  background-color: grey;
+  padding: 1em;
+}
+
+footer h2 {
+  display: none;
+}
+
+footer img {
+  margin: 0 auto;
+}
+
+footer nav ol li {
+  list-style-type: none;
+  display: inline-block;
+  padding-right: 2rem;
+  margin-bottom: 1.5rem;
+}
+/***************************/
