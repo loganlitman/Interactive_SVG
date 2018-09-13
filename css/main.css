@@ -380,3 +380,70 @@ footer nav ol li {
 	font-weight: lighter;
 	}
 /***************************/
+
+/**ARTICLE PAGE*************/
+
+.bgimg
+{
+  width: 100%;
+  z-index: 0;
+}
+
+#purevolumearticleheader
+{
+	color: #ac4db3;
+	font-size: 100px;
+	text-transform: uppercase;
+	text-align: right;
+	margin-right: 20px;
+}
+
+#purevolumearticletext
+{
+	font-size: 20px;
+	text-align: right;
+	margin-right: 20px;
+
+}
+
+#draketitle
+{
+	font-size: 30px;
+	color: #ac4db3;
+	padding-bottom: 20px;
+}
+
+#main-article-text
+{
+	text-align: left;
+}
+
+#boldtext
+{
+	font-weight: bolder;
+}
+
+.article-imgs
+{
+	width: 500px;
+	height: auto;
+}
+
+.more-button
+{
+	align-content: center;
+	background-color: #3f1744;
+	padding: 20px;
+	padding-left: 50px;
+	padding-right: 50px;
+	color: white;
+	font-family: Raleway;
+}
+
+h6
+{
+	font-family: Raleway;
+	color: white;
+	font-size: 20px;
+}
+/**************************/
