@@ -119,9 +119,9 @@ body {
 }
 
 .nav-link-container {
-	margin-left: 40px;	
-	}	
-	
+	margin-left: 40px;
+	}
+
 .nav-numbers-font {
 	font-size: 12px;
 	color: #5a5a5a;
@@ -137,7 +137,7 @@ body {
 	padding: 0px;
 	float: left;
 	color: #3d1144;
-	}	
+	}
 
 /* mouse over link */
 .nav-links-font:hover {
@@ -218,6 +218,7 @@ header p {
   font-weight: bold;
   color: black;
   margin: 1rem;
+	clear: both;
 }
 
 #latestBg {
