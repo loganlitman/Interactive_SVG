@@ -1,26 +1,9 @@
-# PureVolume
-Fanshawe Group Project
-
-This project is a redesign of [PureVolume](purevolume.com).
+# HW3
+Logan Litman interactive infographic project
 
 ## Getting Started
-We created the documents necessary for the project. 
-We have the index.html set-up and our secondary page will be a post. 
-
-## Built with
-* [Bootstrap](https://getbootstrap.com/) - Bootstrap Framework
-
+I created the documents necessary for the project.
+I have the index.html page set up
 ## Authors
-* **Carter Rose** - *Designer* 
-* **Fernando D'Oria** - *Video Person*
-* **Logan Litman** - *Coder* 
-* **Joanna Baile** - *Coder* and *Project Manager*
+**Logan Litman
 
-## Progress
-* 9/07 - Started repo; created base files; created designs
-* 9/10 - Checkpoint; Tweaking design of the website, created a mock Instagram page
-* 9/11 - Created base for HTML files, CSS, and JavaScript for video player
-* 9/12 - Checkpoint; Finishing off HTML files and video
-
-## Resources
-* We made a [Pinterest board](https://www.pinterest.ca/cartererose/music-website-design/) for inspiration
