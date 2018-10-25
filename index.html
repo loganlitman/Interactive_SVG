@@ -5,9 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Interactive SVG Poster</title>
     <link href="css/main.css" rel="stylesheet"> <!--CSS FILE YOU CAN EDIT-->
-    <link href="css/animate.css" rel="stylesheet">
+	<link href="css/animate.css" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.3.0/animate.css"></script>
+
   </head>
 
   <body>
@@ -51,7 +54,7 @@
 </g>
 <g id="Layer_1_1_">
 	<g id="entire_image">
-		<g id="TITLE" class="animated slideInRight">
+		<g id="TITLE" class="wow slideInRight">
 			<text transform="matrix(1 0 0 1 58.0046 26.1435)" class="st0 st1 st2">SURVIVING RHINO </text>
 			<text transform="matrix(1 0 0 1 15.9046 43.8435)" class="st0 st1 st2">SPECIES OF THE WORLD.</text>
 		</g>
@@ -123,7 +126,7 @@
 				c0,0-1.7-1.4-1.6-2.4l1.9,0.7c0,0-0.8-0.9-0.7-1.5l1.9,0.7c0,0,0.6-1.3,2-2.2c0,0,1.7-2,2.3-2.7c0,0,3.4-4.2,6-3.1
 				c0,0,2.6,0.1,6,0.7c0,0,4.6,0.4,6.4-0.9c0,0,0.7-0.6,3.2,0.7C83.2,133.3,84.4,132.8,85.1,133.1z"/>
 		</g>
-		<g id="OUTER_LINES">
+		<g id="OUTER_LINES" class="animated slideInLeft">
 			<g id="top_rec">
 				<g>
 					<rect x="10.8" y="21.1" width="38.4" height="0.5"/>
@@ -171,7 +174,7 @@
 						<ellipse class="st3" cx="140.9" cy="91.2" rx="6.2" ry="6"/>
 					</g>
 				</g>
-				<g id="_x34_48_x2B_">
+				<g id="_x34_48_x2B_" class="wow flash">
 					<text transform="matrix(1 0 0 1 135.8034 91.8847)" class="st8 st9 st10">448+</text>
 				</g>
 				<g id="_x32_011_x5F_LINE">
@@ -230,7 +233,7 @@
 		</g>
 		<g id="amount_left">
 			<g id="WHITE_2_">
-				<g id="Rectangle_1_7_">
+				<g id="Rectangle_1_7_" class="animated slideInLeft">
 					<g>
 						<rect x="16.8" y="458.4" class="st3" width="178.6" height="1.7"/>
 					</g>
@@ -244,7 +247,7 @@
 				</g>
 			</g>
 			<g id="JAVAN_1_">
-				<g id="Rectangle_1_9_">
+				<g id="Rectangle_1_9_" class="animated slideInLeft">
 					<g>
 						<rect x="16.8" y="437.5" class="st3" width="178.6" height="1.7"/>
 					</g>
@@ -258,7 +261,7 @@
 				</g>
 			</g>
 			<g id="BLACK_1_">
-				<g id="Rectangle_1_8_">
+				<g id="Rectangle_1_8_" class="animated slideInLeft">
 					<g>
 						<rect x="16.6" y="417.4" class="st3" width="178.6" height="1.7"/>
 					</g>
@@ -271,7 +274,7 @@
 				</g>
 			</g>
 			<g id="SUMATRAN_1_">
-				<g id="Rectangle_1_6_">
+				<g id="Rectangle_1_6_" class="animated slideInLeft">
 					<g>
 						<rect x="16.8" y="397.9" class="st3" width="178.6" height="1.7"/>
 					</g>
@@ -285,7 +288,7 @@
 				</g>
 			</g>
 			<g id="INDIAN_2_">
-				<g id="Rectangle_1_5_">
+				<g id="Rectangle_1_5_" class="animated slideInLeft">
 					<g>
 						<rect x="17.3" y="378.5" class="st3" width="178.6" height="1.7"/>
 					</g>
@@ -374,7 +377,7 @@
 				<rect id="bottom_4_" x="187" y="597.9" width="0.5" height="29.2"/>
 			</g>
 		</g>
-		<g id="rhinos_left_sctn" class="wow bounce">
+		<g id="rhinos_left_sctn" class="animated flash">
 			<text transform="matrix(1 0 0 1 18.7853 320.1239)" class="st17 st9 st24">LESS THAN 30,000 RHINO’S</text>
 			<text transform="matrix(1 0 0 1 41.4853 336.4239)" class="st17 st9 st24">REMAIN IN THE WORLD.</text>
 			<g id="rhino_line" class="st25">
@@ -428,9 +431,9 @@
 </g>
 </svg>
 
-    <script src="js/main.js"></script> <!--JS FILE YOU CAN EDIT-->
     <script>
         new WOW().init();
-        </script>
+	 </script>
+	 
   </body>
 </html>
