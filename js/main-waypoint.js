@@ -24,7 +24,18 @@ window.onload = function(){
         },
         offset: "50%" //scroll to 50% for it to be activated
     })
+
+    //CRITICALLY ENDANGERED
   
+    var waypoint = new Waypoint({
+        element:document.getElementById("CRITICALLY_ENDANGERED"),
+        handler:function(direction){
+            this.element.classList.add("slideInLeft");
+            this.element.classList.add("animated");
+            //this.element.classList.add("see");
+        },
+        offset: "50%" //scroll to 50% for it to be activated
+    })
 
     //POACHING RATES GRAPH
     
@@ -85,9 +96,8 @@ window.onload = function(){
             this.element.classList.add("animated");
             //this.element.classList.add("see");
         },
-        offset: "50%" 
+        offset: "80%" 
     })
-    
     
 
     //FIRST LINE OF RHINOS
@@ -157,37 +167,17 @@ window.onload = function(){
     //SPECIFIC NUMBER OF RHINOS LEFT SECTION ANIMATIONS
    
     var waypoint = new Waypoint({
-        element:document.getElementById("Rectangle_1_5_"),
+        element:document.getElementById("INDIAN"),
         handler:function(direction){
             this.element.classList.add("slideInLeft");
             this.element.classList.add("animated");
             //this.element.classList.add("see");
         },
-        offset: "50%" 
+        offset: "90%" 
     })
     
     var waypoint = new Waypoint({
-        element:document.getElementById("Rectangle_1_6_"),
-        handler:function(direction){
-            this.element.classList.add("slideInLeft");
-            this.element.classList.add("animated");
-            //this.element.classList.add("see");
-        },
-        offset: "60%" 
-    })
-
-    var waypoint = new Waypoint({
-        element:document.getElementById("Rectangle_1_8_"),
-        handler:function(direction){
-            this.element.classList.add("slideInLeft");
-            this.element.classList.add("animated");
-            //this.element.classList.add("see");
-        },
-        offset: "70%" 
-    })
-
-    var waypoint = new Waypoint({
-        element:document.getElementById("Rectangle_1_9_"),
+        element:document.getElementById("SUMATRAN_2_"),
         handler:function(direction){
             this.element.classList.add("slideInLeft");
             this.element.classList.add("animated");
@@ -197,13 +187,33 @@ window.onload = function(){
     })
 
     var waypoint = new Waypoint({
-        element:document.getElementById("Rectangle_1_7_"),
+        element:document.getElementById("BLACK_2_"),
         handler:function(direction){
             this.element.classList.add("slideInLeft");
             this.element.classList.add("animated");
             //this.element.classList.add("see");
         },
-        offset: "90%" 
+        offset: "70%" 
+    })
+
+    var waypoint = new Waypoint({
+        element:document.getElementById("JAVAN_2_"),
+        handler:function(direction){
+            this.element.classList.add("slideInLeft");
+            this.element.classList.add("animated");
+            //this.element.classList.add("see");
+        },
+        offset: "60%" 
+    })
+
+    var waypoint = new Waypoint({
+        element:document.getElementById("WHITE_3_"),
+        handler:function(direction){
+            this.element.classList.add("slideInLeft");
+            this.element.classList.add("animated");
+            //this.element.classList.add("see");
+        },
+        offset: "50%" 
     })
 
     var waypoint = new Waypoint({
@@ -242,53 +252,53 @@ window.onload = function(){
     var waypoint = new Waypoint({
         element:document.getElementById("indian_line"),
         handler:function(direction){
-            this.element.classList.add("slideInLeft");
+            this.element.classList.add("pulse");
             this.element.classList.add("animated");
             //this.element.classList.add("see");
         },
-        offset: "40%" 
+        offset: "70%" 
     })
 
     var waypoint = new Waypoint({
         element:document.getElementById("sumatran_line"),
         handler:function(direction){
-            this.element.classList.add("slideInLeft");
+            this.element.classList.add("pulse");
             this.element.classList.add("animated");
             //this.element.classList.add("see");
         },
-        offset: "50%" 
+        offset: "60%" 
     })
 
     var waypoint = new Waypoint({
         element:document.getElementById("white_line"),
         handler:function(direction){
-            this.element.classList.add("slideInLeft");
+            this.element.classList.add("pulse");
             this.element.classList.add("animated");
             //this.element.classList.add("see");
         },
-        offset: "60%" 
+        offset: "50%" 
     })
 
     var waypoint = new Waypoint({
         element:document.getElementById("black_line"),
         handler:function(direction){
-            this.element.classList.add("slideInLeft");
+            this.element.classList.add("pulse");
             this.element.classList.add("animated");
             //this.element.classList.add("see");
         },
-        offset: "60%" 
+        offset: "50%" 
     })
 
 
     //FINE PRINT
     var waypoint = new Waypoint({
-        element:document.getElementById("fine_print"),
+        element:document.getElementById("FINE_PRINT"),
         handler:function(direction){
-            this.element.classList.add("bounce");
+            this.element.classList.add("flash");
             this.element.classList.add("animated");
             //this.element.classList.add("see");
         },
-        offset: "50%" 
+        offset: "90%" 
     })
 
   };
