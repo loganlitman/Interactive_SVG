@@ -54,7 +54,7 @@ window.onload = function(){
         handler:function(direction){
             this.element.classList.add("flash");
             this.element.classList.add("animated");
-            //this.element.classList.add("see");
+            this.element.classList.add("visible");
         },
         offset: "50%" 
     })
@@ -64,9 +64,9 @@ window.onload = function(){
         handler:function(direction){
             this.element.classList.add("flash");
             this.element.classList.add("animated");
-            //this.element.classList.add("see");
+            this.element.classList.add("visible");
         },
-        offset: "50%" 
+        offset: "30%" 
     })
 
     var waypoint = new Waypoint({
@@ -74,7 +74,7 @@ window.onload = function(){
         handler:function(direction){
             this.element.classList.add("flash");
             this.element.classList.add("animated");
-            //this.element.classList.add("see");
+            this.element.classList.add("visible");
         },
         offset: "50%" 
     })
@@ -84,7 +84,7 @@ window.onload = function(){
         handler:function(direction){
             this.element.classList.add("flash");
             this.element.classList.add("animated");
-            //this.element.classList.add("see");
+            this.element.classList.add("visible");
         },
         offset: "50%" 
     })
@@ -107,7 +107,7 @@ window.onload = function(){
         handler:function(direction){
             this.element.classList.add("fadeIn");
             this.element.classList.add("animated");
-            //this.element.classList.add("see");
+            this.element.classList.add("visible");
         },
         offset: "20%" 
     })
@@ -117,7 +117,7 @@ window.onload = function(){
         handler:function(direction){
             this.element.classList.add("fadeIn");
             this.element.classList.add("animated");
-            //this.element.classList.add("see");
+            this.element.classList.add("visible");
         },
         offset: "30%" 
     })
@@ -127,7 +127,7 @@ window.onload = function(){
         handler:function(direction){
             this.element.classList.add("fadeIn");
             this.element.classList.add("animated");
-            //this.element.classList.add("see");
+            this.element.classList.add("visible");
         },
         offset: "40%" 
     })
@@ -137,7 +137,7 @@ window.onload = function(){
         handler:function(direction){
             this.element.classList.add("fadeIn");
             this.element.classList.add("animated");
-            //this.element.classList.add("see");
+            this.element.classList.add("visible");
         },
         offset: "50%" 
     })
@@ -147,7 +147,7 @@ window.onload = function(){
         handler:function(direction){
             this.element.classList.add("fadeIn");
             this.element.classList.add("animated");
-            //this.element.classList.add("see");
+            this.element.classList.add("visible");
         },
         offset: "50%" 
     })
@@ -171,9 +171,9 @@ window.onload = function(){
         handler:function(direction){
             this.element.classList.add("slideInLeft");
             this.element.classList.add("animated");
-            //this.element.classList.add("see");
+            this.element.classList.add("visible");
         },
-        offset: "90%" 
+        offset: "50%" 
     })
     
     var waypoint = new Waypoint({
@@ -181,9 +181,9 @@ window.onload = function(){
         handler:function(direction){
             this.element.classList.add("slideInLeft");
             this.element.classList.add("animated");
-            //this.element.classList.add("see");
+            this.element.classList.add("visible");
         },
-        offset: "80%" 
+        offset: "50%" 
     })
 
     var waypoint = new Waypoint({
@@ -191,9 +191,9 @@ window.onload = function(){
         handler:function(direction){
             this.element.classList.add("slideInLeft");
             this.element.classList.add("animated");
-            //this.element.classList.add("see");
+            this.element.classList.add("visible");
         },
-        offset: "70%" 
+        offset: "50%" 
     })
 
     var waypoint = new Waypoint({
@@ -201,9 +201,9 @@ window.onload = function(){
         handler:function(direction){
             this.element.classList.add("slideInLeft");
             this.element.classList.add("animated");
-            //this.element.classList.add("see");
+            this.element.classList.add("visible");
         },
-        offset: "60%" 
+        offset: "50%" 
     })
 
     var waypoint = new Waypoint({
@@ -211,7 +211,7 @@ window.onload = function(){
         handler:function(direction){
             this.element.classList.add("slideInLeft");
             this.element.classList.add("animated");
-            //this.element.classList.add("see");
+            this.element.classList.add("visible");
         },
         offset: "50%" 
     })
@@ -221,7 +221,7 @@ window.onload = function(){
         handler:function(direction){
             this.element.classList.add("flash");
             this.element.classList.add("animated");
-            //this.element.classList.add("see");
+            this.element.classList.add("visible");
         },
         offset: "50%" 
     })
@@ -231,7 +231,7 @@ window.onload = function(){
         handler:function(direction){
             this.element.classList.add("flash");
             this.element.classList.add("animated");
-            //this.element.classList.add("see");
+            this.element.classList.add("visible");
         },
         offset: "50%" 
     })
@@ -241,7 +241,7 @@ window.onload = function(){
         handler:function(direction){
             this.element.classList.add("flash");
             this.element.classList.add("animated");
-            //this.element.classList.add("see");
+            this.element.classList.add("visible");
         },
         offset: "50%" 
     })
@@ -254,9 +254,9 @@ window.onload = function(){
         handler:function(direction){
             this.element.classList.add("pulse");
             this.element.classList.add("animated");
-            //this.element.classList.add("see");
+            this.element.classList.add("visible");
         },
-        offset: "70%" 
+        offset: "59%" 
     })
 
     var waypoint = new Waypoint({
@@ -264,9 +264,9 @@ window.onload = function(){
         handler:function(direction){
             this.element.classList.add("pulse");
             this.element.classList.add("animated");
-            //this.element.classList.add("see");
+            this.element.classList.add("visible");
         },
-        offset: "60%" 
+        offset: "57%" 
     })
 
     var waypoint = new Waypoint({
@@ -274,9 +274,9 @@ window.onload = function(){
         handler:function(direction){
             this.element.classList.add("pulse");
             this.element.classList.add("animated");
-            //this.element.classList.add("see");
+            this.element.classList.add("visible");
         },
-        offset: "50%" 
+        offset: "55%" 
     })
 
     var waypoint = new Waypoint({
@@ -284,9 +284,9 @@ window.onload = function(){
         handler:function(direction){
             this.element.classList.add("pulse");
             this.element.classList.add("animated");
-            //this.element.classList.add("see");
+            this.element.classList.add("visible");
         },
-        offset: "50%" 
+        offset: "53%" 
     })
 
 
@@ -296,7 +296,7 @@ window.onload = function(){
         handler:function(direction){
             this.element.classList.add("flash");
             this.element.classList.add("animated");
-            //this.element.classList.add("see");
+            this.element.classList.add("visible");
         },
         offset: "90%" 
     })
