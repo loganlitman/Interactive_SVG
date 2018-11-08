@@ -5,3 +5,47 @@
 .visible {
     visibility: visible !important;
 }
+
+#db p {
+    font-style: italic; 
+    color: red;
+    display: block;
+    text-align: center;
+    font-family: Raleway, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.headline_1 {
+    font-size: 20px;
+    font-weight: bold;    
+}
+
+#databaserhino2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+@media screen and (max-width: 900px) {
+    #databaserhino2 {
+        width: 125px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #databaserhino2 {
+         width: 500px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    p {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    p {
+         font-size: 30px;
+    }
+}
