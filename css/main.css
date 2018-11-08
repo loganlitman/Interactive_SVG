@@ -6,6 +6,7 @@
     visibility: visible !important;
 }
 
+<<<<<<< HEAD
 #db p {
     font-style: italic; 
     color: red;
@@ -49,3 +50,5 @@
          font-size: 30px;
     }
 }
+=======
+>>>>>>> 7060a91a8d063b152364a40459f619d349b97441
