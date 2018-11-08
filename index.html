@@ -3,10 +3,13 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Interactive SVG Poster</title>
+	<title>Interactive SVG Poster</title>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway" rel="stylesheet"> <!--FONT-->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
     <link href="css/main.css" rel="stylesheet"> <!--CSS FILE YOU CAN EDIT-->
 	<link href="css/animate.css" rel="stylesheet">
-	<link href="css/main.scss" rel="stylesheet"> <!--SASS-->
+	<link href="css/main.scss" rel="stylesheet"> <!--SASS FILE YOU CAN EDIT-->
 	<script src="js/noframework-waypoints-min.js"></script>
     <script src="js/main-waypoint.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.3.0/animate.css"></script>
@@ -431,16 +434,20 @@
 			</g>
 		</g>
 		<g id="FINE_PRINT" class="hidden">
-			<text transform="matrix(1 0 0 1 116.5036 692.7001)" class="st17 st4 st26">*Click on the location to reveal</text>
-			<text transform="matrix(1 0 0 1 109.9036 700.0001)" class="st17 st4 st26">which type(s) of rhino live there.</text>
+			<text transform="matrix(1 0 0 1 116.5036 692.7001)" class="st17 st4 st26">This study was conducted in 2012.</text>
+			<text transform="matrix(1 0 0 1 109.9036 700.0001)" class="st17 st4 st26">Results may vary from that time.</text>
 		</g>
 	</g>
 </g>
 </svg>
+<div id="db">
+	<p>Click below to reveal which Rhino is extinct as of 2018</p>
+	<img src="images/9E552161319B7902.png" id="databaserhino2" class="rhino" data-offset="0">
+	<p class="headline_1">Headline</p>
+	<p class="copy_1">Fun fact</p>
+</div>
 
-    <script>
-        new WOW().init();
-	 </script>
-	 
+<script src="css/main.css"></script>
+<script src="js/main.js"></script>
   </body>
 </html>
